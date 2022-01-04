@@ -412,8 +412,6 @@ img {
   flex-basis: calc((100% - 150px) / 6);
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 
 .clients-item:not(:last-child) {
@@ -421,9 +419,12 @@ img {
 }
 
 .clients-link {
-  width: 106px;
-  height: 60px;
+  width: 170px;
+  height: 92px;
   display: block;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   color: #afb1b8;
 }
 
@@ -434,6 +435,7 @@ img {
 .clients-link:hover,
 .clients-link:focus {
   color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 /* Портфолио - Работы */
